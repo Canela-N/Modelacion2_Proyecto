@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,mexico]{babel}
+\usepackage{array,booktabs} 
+\usepackage[table]{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{ragged2e}
+\usepackage{verbatim}
+\usepackage[margin=2.5cm,footskip=0.25in]{geometry}
+\usepackage{graphicx} % figuras
+\usepackage{subfigure} % subfiguras
+
+\oddsidemargin = 0 cm
+\textwidth = 17 cm
+\topmargin = -2 cm
+\textheight = 26 cm  
+
+\usepackage[spanish]{babel}
+
+
+
+\title{Proyecto}
+\usepackage[hidelinks]{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=red,
+    filecolor=Maroon,      
+    urlcolor=OliveGreen,
+    citecolor = Maroon
+}
+
+
+\begin{document}
+
+\input{Portada}
+\tableofcontents
+\newpage
+
+\section{Resumen}
+\input{Secciones/Resumen}
+
+\section{Introducción a la base}
+\input{Secciones/Introducción a la base}
+
+\newpage
+
+\section{Análisis Descriptivo.}
+\input{Secciones/Descriptiva}
+
+
+\section{Métodos de descomposición}
+\input{Secciones/Metodos de descomposicion}
+
+
+\section{Ajuste serie de Tiempo}
+\input{Secciones/Ajuste serie de Tiempo}
+
+
+\section{Supuestos}
+\input{Secciones/Supuestos}
+
+\section{Pronósticos y Conclusiones}
+\input{Secciones/Pronosticos}
+
+
+\begin{thebibliography}{X }
+\bibitem{Garch}Bauwens, L., Laurent, S., $\&$ Rombouts, J. V. (2006). Multivariate GARCH models: a survey. Journal of applied econometrics, 21(1), 79-109.
+
+\bibitem{Lundbergh} Lundbergh, S., $\&$ Teräsvirta, T. (2002). Evaluating GARCH models. Journal of Econometrics, 110(2), 417-435.
+
+\bibitem{Francq}Francq, C., $\&$ Zakoian, J. M. (2019). GARCH models: structure, statistical inference and financial applications. John Wiley $\&$ Sons.
+
+\bibitem{Silvennoinen}Silvennoinen, A., $\&$ Teräsvirta, T. (2009). Multivariate GARCH models. In Handbook of financial time series (pp. 201-229). Springer, Berlin, Heidelberg.
+
+\bibitem{Teräsvirta}Teräsvirta, T. (2009). An introduction to univariate GARCH models. In Handbook of financial time series (pp. 17-42). Springer, Berlin, Heidelberg.
+\bibitem{Engle}Engle, R. (2001). GARCH 101: The use of ARCH/GARCH models in applied econometrics. Journal of economic perspectives, 15(4), 157-168.
+
+\end{thebibliography}
+\end{document}

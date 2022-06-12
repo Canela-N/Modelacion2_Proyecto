@@ -1,0 +1,12 @@
+Las series de tiempo son colecciones de datos sobre un determinado fenómeno en  en sucesivos momentos del tiempo. Y son de gran utilidad para pronosticar el comportamiento de los datos en un futuro. 
+\\\\
+Es por ello que para este trabajo trabajamos con ellas, con la intención de predecir el posible comportamiento de las acciones de una empresa tan grande como lo es actualmente Netflix, dejando en claro que no sabemos como será el comportamiento social en los años siguiente y puede que se desarrolle de manera distinta. 
+\\\\
+Por supuesto, primero se realiza un análisis visual, donde se observa de primera que tenemos una \textbf{varianza creciente,} lo cual, nos indica que nuestra serie de tiempo es \textit{no estacionaría}; este dato es muy importante para poder definir que nuestro modelo a usar será \textbf{GARCH}. 
+\\\\
+El modelo GARCH es un modelo autorregresivo generalizado que captura las agrupaciones de volatilidad de las rentabilidades a través de la varianza condicional. Así, entonces podemos hacer el ajuste de nuestra serie de tiempo, eligiendo también el modelo  \textbf{GARCH(1,2)} compuesto con el modelo \textbf{ARMA(1,1)}. 
+\\\\
+Dado esto se cumplen los supuestos de parámetros significativos, independencia de los residuos y de los residuos al cuadrado y la distribución empírica como una t-student.
+\\\\
+Y con ello podemos concluir que dentro de un periodo de \textbf{20 años}la estabilidad de las inversiones se estabilizaran, a diferencia del gran impacto que tuvo durante los años de $2010$ y $2011$.
+
